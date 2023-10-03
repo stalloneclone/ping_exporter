@@ -13,6 +13,10 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
+const (
+	namespace = "ping_"
+)
+
 var (
 	probeDurationGauge = prometheus.NewGauge(prometheus.GaugeOpts{
 		Name: namespace + "duration_seconds",

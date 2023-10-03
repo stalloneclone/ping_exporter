@@ -11,8 +11,7 @@ import (
 )
 
 const (
-	namespace = "ping_"
-	version   = "0.1.0"
+	version = "0.1.0"
 )
 
 var (
